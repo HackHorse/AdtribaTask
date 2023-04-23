@@ -1,0 +1,94 @@
+body {
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.maximumName{
+margin-top: 50px;
+border: 1px solid #E9E9E9;
+border-radius: 7px;
+padding: 10px;
+
+}
+.maximumValue{
+ color: #167A19;
+  }
+
+.asideleft {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    padding-top: 100px;
+    float: left;
+    box-shadow: 2px 5px 5px 2px #E9E9E9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+/* Adjust width as needed */
+    z-index: 999; /* Set z-index to ensure it's above other elements */
+  }
+
+  .asideright{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 2px 5px 5px 2px #E9E9E9;
+    float: left;
+  }
+  
+  .asiderightfixed{
+    width: 180px;
+    height: auto;
+    padding: 15px;
+    padding-top: 100px;
+    float: right;
+    box-shadow: 2px 5px 5px 2px #E9E9E9;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+/* Adjust width as needed */
+    z-index: 999; /* Set z-index to ensure it's above other elements */
+  }
+
+  .main-container {
+    /* Set margin to create space for fixed aside and header */
+    margin-top: 68px; /* Adjust margin-top to match header height */
+    margin-left: 350px; /* Adjust margin-left to match aside width */
+    /* Additional styles for the main container */
+    /* Add any other styles you need for the main container */
+
+  }
+
+
+  table {
+   width: 900px; 
+   margin-top: 20px;
+   color: #fff;
+  }
+  th{
+    padding: 5px;
+  }
+  td{
+    padding: 5px;
+    padding-bottom: 100px;
+  }
+  .rev{
+    background-color: #1B48FF;
+  }
+  .con{
+    background-color: #FFA51B;
+  }
+  .spe{
+    background-color: #FE5F34;
+  }
+  .roa{
+    background-color: #167A19;
+  }
+  .cpa{
+    background-color: #940611;
+  }

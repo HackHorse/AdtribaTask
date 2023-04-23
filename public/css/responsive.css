@@ -1,0 +1,19 @@
+@media (max-width: 780px) {
+    .asideleft{
+      max-width: none; /* Remove max-width for mobile devices */
+      width: 100%; /* Set width to 100% for mobile devices */
+      margin-left: 0; /* Remove margin-left for mobile devices */
+      position: relative;
+    }
+
+    .asiderightfixed{
+        max-width: none; /* Remove max-width for mobile devices */
+        width: 100%; /* Set width to 100% for mobile devices */
+        margin-left: 0; /* Remove margin-left for mobile devices */
+        position: relative;
+      }
+    .main-container {
+      margin-top: 60px; /* Adjust margin-top to match header height */
+      margin-left: 0; /* Remove margin-left for mobile devices */
+    }
+  }
